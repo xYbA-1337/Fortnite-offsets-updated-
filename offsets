@@ -1,5 +1,6 @@
 DISCORD.GG/RAZERUD
 
+DISCORD.GG/RAZERUD
 
 enum bone : int
 {
@@ -45,13 +46,25 @@ enum bone : int
     HumanChest = 65
 };
 
+
+
+DISCORD.GG/RAZERUD
+
+
+DISCORD.GG/RAZERUD
+
+
+DISCORD.GG/RAZERUD
+
+
+
 __int64 dynamic_uworld;
 enum offset {
-    uworld = 0x12D9F408, // OFFSET_GWORLD
+    uworld = 0x12ED8E38, // OFFSET_GWORLD
     levels = 0x1a0, // https://dumpspace.spuckwaffel.com/Games/?hash=6b77eceb&type=classes&idx=UWorld&member=Levels
     gnames = 0x1233C1C0,
-    game_instance = 0x200, //https://dumpspace.spuckwaffel.com/Games/?hash=6b77eceb&type=classes&idx=UWorld&member=OwningGameInstance
-    game_state = 0x188, // https://dumpspace.spuckwaffel.com/Games/?hash=6b77eceb&type=classes&idx=UWorld&member=GameState
+    game_instance = 0x1f0, //https://dumpspace.spuckwaffel.com/Games/?hash=6b77eceb&type=classes&idx=UWorld&member=OwningGameInstance
+    game_state = 0x178, // https://dumpspace.spuckwaffel.com/Games/?hash=6b77eceb&type=classes&idx=UWorld&member=GameState
     local_player = 0x38, // https://dumpspace.spuckwaffel.com/Games/?hash=6b77eceb&type=classes&idx=UGameInstance&member=LocalPlayers
     player_controller = 0x30, // https://dumpspace.spuckwaffel.com/Games/?hash=6b77eceb&type=classes&idx=UPlayer&member=PlayerController
     acknowledged_pawn = 0x350, // https://dumpspace.spuckwaffel.com/Games/?hash=6b77eceb&type=classes&idx=APlayerController&member=AcknowledgedPawn
@@ -81,6 +94,18 @@ enum offset {
     fname = 0x121B1400, // not sure
     current_vehicle = 0x2a38, // https://dumpspace.spuckwaffel.com/Games/?hash=6b77eceb&type=classes&idx=AFortPlayerPawn&member=CurrentVehicle
 
+
+
+DISCORD.GG/RAZERUD
+
+
+
+DISCORD.GG/RAZERUD
+
+
+DISCORD.GG/RAZERUD
+
+
 };
 //
 enum weaponoffsets {
@@ -90,6 +115,15 @@ enum weaponoffsets {
     Tier = 0xa2, // https://dumpspace.spuckwaffel.com/Games/?hash=6b77eceb&type=classes&idx=UFortItemDefinition&member=Rarity
     ItemName = 0x40, // https://dumpspace.spuckwaffel.com/Games/?hash=6b77eceb&type=classes&idx=UItemDefinitionBase&member=ItemName i think
 };
+
+
+DISCORD.GG/RAZERUD
+
+
+DISCORD.GG/RAZERUD
+
+
+DISCORD.GG/RAZERUD
 
 enum cameraoffsetss {
     PlayerCameraManager = 0x348, // https://dumpspace.spuckwaffel.com/Games/?hash=6b77eceb&type=classes&idx=APlayerController&member=PlayerCameraManager
@@ -103,3 +137,11 @@ enum cameraoffsetss {
     AimPitchMin = 0x1830,
     AimPitchMax = 0x1834,
 };
+
+DISCORD.GG/RAZERUD
+
+DISCORD.GG/RAZERUD
+
+DISCORD.GG/RAZERUD
+
+DISCORD.GG/RAZERUD
