@@ -60,11 +60,11 @@ DISCORD.GG/RAZERUD
 
 __int64 dynamic_uworld;
 enum offset {
-    uworld = 0x12ED8E38, // OFFSET_GWORLD
+    uworld = 0x12E8EF68, // OFFSET_GWORLD
     levels = 0x1a0, // https://dumpspace.spuckwaffel.com/Games/?hash=6b77eceb&type=classes&idx=UWorld&member=Levels
     gnames = 0x1233C1C0,
-    game_instance = 0x1f0, //https://dumpspace.spuckwaffel.com/Games/?hash=6b77eceb&type=classes&idx=UWorld&member=OwningGameInstance
-    game_state = 0x178, // https://dumpspace.spuckwaffel.com/Games/?hash=6b77eceb&type=classes&idx=UWorld&member=GameState
+    game_instance = 0x1f8, //https://dumpspace.spuckwaffel.com/Games/?hash=6b77eceb&type=classes&idx=UWorld&member=OwningGameInstance
+    game_state = 0x180, // https://dumpspace.spuckwaffel.com/Games/?hash=6b77eceb&type=classes&idx=UWorld&member=GameState
     local_player = 0x38, // https://dumpspace.spuckwaffel.com/Games/?hash=6b77eceb&type=classes&idx=UGameInstance&member=LocalPlayers
     player_controller = 0x30, // https://dumpspace.spuckwaffel.com/Games/?hash=6b77eceb&type=classes&idx=UPlayer&member=PlayerController
     acknowledged_pawn = 0x350, // https://dumpspace.spuckwaffel.com/Games/?hash=6b77eceb&type=classes&idx=APlayerController&member=AcknowledgedPawn
@@ -74,7 +74,7 @@ enum offset {
     player_state = 0x2c8, // https://dumpspace.spuckwaffel.com/Games/?hash=6b77eceb&type=classes&idx=APawn&member=PlayerState
     player_id = 0x2ac, // https://dumpspace.spuckwaffel.com/Games/?hash=6b77eceb&type=classes&idx=APlayerState&member=PlayerId
     root_component = 0x1b0, // https://dumpspace.spuckwaffel.com/Games/?hash=6b77eceb&type=classes&idx=AActor&member=RootComponent
-    persistent_level = 0x40, // https://dumpspace.spuckwaffel.com/Games/?hash=6b77eceb&type=classes&idx=UWorld&member=PersistentLevel
+    persistent_level = 0x38, // https://dumpspace.spuckwaffel.com/Games/?hash=6b77eceb&type=classes&idx=UWorld&member=PersistentLevel
     OwningWorld = 0xc0,
     velocity = 0x168, // https://dumpspace.spuckwaffel.com/Games/?hash=6b77eceb&type=classes&idx=USceneComponent&member=ComponentVelocity
     relative_location = 0x120, // https://dumpspace.spuckwaffel.com/Games/?hash=6b77eceb&type=classes&idx=USceneComponent&member=RelativeLocation
